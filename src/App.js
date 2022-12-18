@@ -1,14 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Nav from "./components/Nav"
-import Hero from "./components/Hero"
-import Portfolio from "./components/Portfolio"
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Portfolio from "./components/Portfolio";
+import AboutMe from "./components/AboutMe";
 import { useState } from "react";
 
 function App() {
-
-  const [darkMode, toggleDarkMode] = useState()
-
+  const [darkMode, toggleDarkMode] = useState();
 
   const compsciProjects = [
     {
@@ -77,11 +76,12 @@ function App() {
   ];
 
   return (
-    <div className="">
-      <Nav darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-      <Hero darkMode={darkMode}/>
-      <Portfolio projects={compsciProjects} darkMode={darkMode}/>
-      <Portfolio projects={chemEProjects} darkMode={darkMode}/>
+    <div className="container w-screen">
+      <Nav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Hero darkMode={darkMode} />
+      <AboutMe darkMode={darkMode} />
+      <Portfolio projects={compsciProjects} darkMode={darkMode} />
+      <Portfolio projects={chemEProjects} darkMode={darkMode} />
     </div>
     // <div className="App">
     //   <header className="App-header">
