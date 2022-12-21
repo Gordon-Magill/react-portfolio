@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
+// import Nav from "./components/Nav";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page from "./components/Page";
 // import Hero from "./components/Hero";
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div className="container w-screen">
-      <Nav
+      <Header
         darkMode={darkMode}
         toggleDarkMode={toggleDarkMode}
         pages={pages}
