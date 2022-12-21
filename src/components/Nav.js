@@ -11,7 +11,7 @@ export default function Nav({darkMode, toggleDarkMode, pages, setCurrentPage, cu
 
 
   return (
-    <section className="flex justify-between p-4 bg-slate-400 w-screen place-items-center" id='navBar'>
+    <section className="flex justify-between p-4 bg-slate-600 w-screen place-items-center" id='navBar'>
       <p className="m-1 p-1 text-4xl">Gordon Magill</p>
 
       <ul className="m-1 p-1 text-xl">
