@@ -1,13 +1,13 @@
 import React from "react";
 // import logo from '../logo.svg'
 
-export default function Project({ title, imgLink, extLink }) {
-  console.log("imgLink:", imgLink);
-  console.log("title:", title);
+export default function Project({ project}) {
+  // console.log("imgLink:", project.imgLink);
+  // console.log("title:", project.title);
   return (
-    <a className="w-20 h-20 rounded border-2 border-solid" href={extLink}>
-      <p>{title}</p>
-      <img src={imgLink}></img>
+    <a className="flex flex-col rounded border-2 border-solid" href={project.extLink}>
+      <p className="text-center">{project.title}</p>
+      <img src={project.imgLink} alt={project.altText}></img>
     </a>
   );
 }
