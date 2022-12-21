@@ -1,48 +1,82 @@
 import React from "react";
 import Project from "./Project";
-import logo from "../logo.svg";
+// import logo from "../logo.svg";
 import firstProject from '../assets/week1_deployed_page.png'
+// import portfolioImg from '../assets/week1_deployed_page.png'
 
 
 export default function Portfolio() {
 
   const compsciProjects = [
     {
-      title: "Baby's first code refactoring",
+      title: "Basic semantic code refactoring",
       imgLink: firstProject,
       extLink: "https://gordon-magill.github.io/code_refactoring/",
+      ghLink: "",
       altText: "Baby's first code refactoring project"
     },
     {
-      title: "Project B",
-      imgLink: logo,
-      extLink: "#",
+      title: "This portfolio",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
       altText: 'alt text here'
     },
     {
-      title: "Project C",
-      imgLink: logo,
-      extLink: "#",
+      title: "PWA Service Worker Demo",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
       altText: 'alt text here'
     },
     {
-      title: "Project D",
-      imgLink: logo,
-      extLink: "#",
+      title: "Legacy Tech: Handlebars for social media site",
+      imgLink: firstProject,
+      extLink: "",
       altText: 'alt text here'
     },
     {
-      title: "Project E",
-      imgLink: logo,
-      extLink: "#",
+      title: "Legacy Tech: Handlebars for blog",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
       altText: 'alt text here'
     },
     {
-      title: "Project F",
-      imgLink: logo,
-      extLink: "#",
+      title: "E-Commerce Backend Demo",
+      imgLink: firstProject,
+      extLink: "",
       altText: 'alt text here'
     },
+    {
+      title: "Content Management System (CMS) Demo",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
+      altText: 'alt text here'
+    },
+    {
+      title: "Javascript day planner",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
+      altText: 'alt text here'
+    },
+    {
+      title: "Raw HTML, CSS, JS",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
+      altText: 'alt text here'
+    },
+    {
+      title: "Simple README generator",
+      imgLink: firstProject,
+      extLink: "",
+      ghLink: "",
+      altText: 'alt text here'
+    },
+
   ];
 
   return (
