@@ -87,7 +87,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <section className="w-screen flex justify-center" id="portfolioHighlights">
+    <section className="flex justify-center" id="portfolioHighlights">
       <div className="xs:flex xs:flex-col md:grid rounded m-2 p-2 bg-orange-400 md:grid-cols-2 md:gap-4 place-content-center justify-center items-center">
         {compsciProjects.map((project, index) => {
           // console.log(project);
