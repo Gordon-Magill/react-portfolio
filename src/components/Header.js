@@ -12,8 +12,8 @@ export default function Header({darkMode, toggleDarkMode, pages, setCurrentPage,
 
 
   return (
-    <section className="flex justify-between p-4 bg-slate-600 w-screen place-items-center ring ring-inset ring-slate-800" id='navBar'>
-      <p className="m-2 p-1 text-4xl">Gordon Magill</p>
+    <section className="px-4 py-2 flex bg-slate-600 justify-between items-center ring-8 ring-inset ring-red-600" id='header'>
+      <p className="p-2 text-3xl font-bold text-center">Gordon Magill</p>
       <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage}/>
     </section>
   );

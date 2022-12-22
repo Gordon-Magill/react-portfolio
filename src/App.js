@@ -14,7 +14,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div className="container w-screen">
+    <div className='max-w-screen'>
       <Header
         darkMode={darkMode}
         toggleDarkMode={toggleDarkMode}
