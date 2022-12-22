@@ -45,7 +45,7 @@ export default function ContactMe() {
         [event.target.name]: event.target.value,
       });
     } else {
-      alert(errorState)
+      alert(errorState);
     }
   }
 
@@ -55,44 +55,50 @@ export default function ContactMe() {
     if (errorState !== null) {
       console.log("Error: Form content invalid");
     } else {
-      window.open(`mailto:gordon.magill+inquiries@gmail.com?subject=${`Inquiry from portfolio site from ${formValues.name}`}&body=${formValues.message}`);
+      window.open(
+        `mailto:gordon.magill+inquiries@gmail.com?subject=${`Inquiry from portfolio site from ${formValues.name}`}&body=${
+          formValues.message
+        }`
+      );
     }
   }
 
   return (
-    <section
-      id="contactMe"
-      className="bg-slate-400 w-screen flex flex-col items-center"
-    >
-      <form className="flex flex-col w-2/3 md:w-1/2" onSubmit={submitForm}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your name"
-          className={inputFormatting}
-          onBlur={formValidation}
-        ></input>
-        <input
-          type="text"
-          name="email"
-          placeholder="your_email@here.com"
-          className={inputFormatting}
-          onBlur={formValidation}
-        ></input>
-        <input
-          type="text"
-          name="message"
-          placeholder="Your message for Gordon"
-          className={inputFormatting}
-          onBlur={formValidation}
-        ></input>
-        <button
-          type="submit"
-          className="rounded-full border-solid border-green-600 bg-green-300 hover:bg-green-400 focus:bg-green-500 border-4 p-1 m-1"
-        >
-          Submit
-        </button>
-      </form>
-    </section>
+    <div className="flex justify-center">
+      <section
+        id="contactMe"
+        className="bg-slate-400 flex flex-col items-center w-5/6 justify-center p-2 m-1 rounded-md"
+      >
+        <form className="flex flex-col w-4/5 md:w-2/3 lg:w-1/3" onSubmit={submitForm}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            className={inputFormatting}
+            onBlur={formValidation}
+          ></input>
+          <input
+            type="text"
+            name="email"
+            placeholder="your_email@here.com"
+            className={inputFormatting}
+            onBlur={formValidation}
+          ></input>
+          <input
+            type="text"
+            name="message"
+            placeholder="Your message for Gordon"
+            className={inputFormatting}
+            onBlur={formValidation}
+          ></input>
+          <button
+            type="submit"
+            className="rounded-full border-solid border-green-600 bg-green-300 hover:bg-green-400 focus:bg-green-500 border-4 p-1 m-1"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </div>
   );
 }

@@ -3,6 +3,7 @@ import Portfolio from "./Portfolio";
 import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import Resume from "./Resume";
+// import jwst_background from '../assets/jwst_background.jpg'
 
 export default function Page({ currentPage }) {
   const pageSelector = () => {
@@ -16,11 +17,13 @@ export default function Page({ currentPage }) {
         return <ContactMe />;
       case "resume":
         return <Resume />
+      default:
+        return <AboutMe />;
     }
   };
 
   return (
-  <section id="pageBody">
+  <div id="pageBody" className="bg-scroll mb-10">
     {pageSelector()}
-  </section>);
+  </div>);
 }
