@@ -20,7 +20,7 @@ export default function ContactMe() {
       case "email":
         emailValidation(event.target.value)
           ? setErrorState(null)
-          : setErrorState("Bad email");
+          : setErrorState("Invalid email");
         break;
       case "name":
         event.target.value.length > 0
@@ -33,7 +33,7 @@ export default function ContactMe() {
           : setErrorState("Message is a required field");
         break;
       default:
-        break;
+        setErrorState("You managed to break this form in a really unusual way");
     }
 
     // If all fields are good, update state
