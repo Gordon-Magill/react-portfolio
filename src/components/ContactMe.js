@@ -44,6 +44,8 @@ export default function ContactMe() {
         // Use this syntax to set a variable key value, overwriting old data
         [event.target.name]: event.target.value,
       });
+    } else {
+      alert(errorState)
     }
   }
 
@@ -53,7 +55,7 @@ export default function ContactMe() {
     if (errorState !== null) {
       console.log("Error: Form content invalid");
     } else {
-      // Send email using
+      window.open(`mailto:gordon.magill+inquiries@gmail.com?subject=${`Inquiry from portfolio site from ${formValues.name}`}&body=${formValues.message}`);
     }
   }
 
