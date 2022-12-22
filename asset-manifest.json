@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.92bb51b1.css",
+    "main.js": "/react-portfolio/static/js/main.96fbec80.js",
+    "static/media/week1_deployed_page.png": "/react-portfolio/static/media/week1_deployed_page.fe56c422b0c0d5929bbc.png",
+    "static/media/Ecommerce.png": "/react-portfolio/static/media/Ecommerce.2ba5986382faf07acaa4.png",
+    "static/media/gittyup_square.png": "/react-portfolio/static/media/gittyup_square.e8cc7f1f174bdfa90279.png",
+    "static/media/employee_tracker.png": "/react-portfolio/static/media/employee_tracker.280684e08d31fd8cb031.png",
+    "static/media/profile_photo.jpeg": "/react-portfolio/static/media/profile_photo.b675508e6e21e92905ec.jpeg",
+    "static/media/readMeGenerator.png": "/react-portfolio/static/media/readMeGenerator.4fba7bdba33ded6a0370.png",
+    "static/media/blog_demo.jpg": "/react-portfolio/static/media/blog_demo.f3f825be48c73c4ee1d7.jpg",
+    "static/media/JATE.png": "/react-portfolio/static/media/JATE.f61ff9923f7c72853850.png",
+    "static/media/social_media_API.jpg": "/react-portfolio/static/media/social_media_API.325483ca66ac91d1e2fd.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.92bb51b1.css.map": "/react-portfolio/static/css/main.92bb51b1.css.map",
+    "main.96fbec80.js.map": "/react-portfolio/static/js/main.96fbec80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92bb51b1.css",
+    "static/js/main.96fbec80.js"
+  ]
+}
