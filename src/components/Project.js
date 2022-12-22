@@ -4,21 +4,20 @@ import ghLogoDark from "../assets/github-mark.png";
 
 export default function Project({ project }) {
   return (
-    <div className="flex flex-col m-2 rounded max-w-sm relative ring ring-slate-500">
-      <div className="relative">
-        <p className="projectTitle">{project.title}</p>
+    <div className="flex flex-col m-2 rounded max-w-sm relative group" id='projectContainer'>
+      <div className="relative flex justify-center" id='titledPhoto'>
+        <a className="projectTitle z-10" href={project.ghLink}>{project.title}</a>
         <img
           src={project.imgLink}
           alt={project.altText}
-          className="rounded"
+          className="rounded blur-[2px] group-hover:blur-none duration-200"
         ></img>
       </div>
-      <div className="flex flex-row absolute bottom-0 right-0 bg-white/80 rounded-full m-1 items-center">
+      <div className="flex flex-row absolute bottom-0 right-0 bg-white/80 rounded-full m-1 items-center" id='linkContainer'>
         <a href={project.extLink}>
-          {" "}
           <img
             src={ghLogoDark}
-            className="w-5 h-5 md:w-10 md:h-10 m-1"
+            className="w-5 h-5 md:w-10 md:h-10 m-1 ring ring-black rounded-full ring-inset "
             alt="github logo"
           ></img>
         </a>
