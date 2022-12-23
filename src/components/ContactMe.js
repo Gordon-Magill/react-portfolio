@@ -15,9 +15,12 @@ export default function ContactMe() {
   //   Update errorState based on the content of the form
   function formValidation(event) {
     console.log("formValidation called...");
+    console.log(event)
+    console.log('pre-switch error state:',errorState)
     // Update error state based on all field values
     switch (event.target.name) {
       case "email":
+        console.log('triggered email validation')
         emailValidation(event.target.value)
           ? setErrorState(null)
           : setErrorState("Invalid email");
@@ -35,8 +38,10 @@ export default function ContactMe() {
       default:
         setErrorState("You managed to break this form in a really unusual way");
     }
+    console.log('post-switch error state:',errorState)
 
     // If all fields are good, update state
+    // Add useEffect here to handle the change in state
     if (errorState === null) {
       setFormValues({
         // Preserve exising form values
