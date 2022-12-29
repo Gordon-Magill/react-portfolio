@@ -3,9 +3,9 @@ import emailValidation from "../utils/emailValidation";
 
 export default function ContactMe() {
   const inputFormatting =
-    "p-2 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm w-[250px]";
+    "p-2 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm min-w-[300px] w-[40vw]";
   const inputFormattingArea =
-    "p-2 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm w-[250px] h-[25vh]";
+    "p-2 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm min-w-[300px] w-[40vw] h-[25vh]";
 
   const [errorState, setErrorState] = useState(null);
   const [formValues, setFormValues] = useState({

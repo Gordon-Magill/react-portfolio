@@ -9,7 +9,7 @@ export default function AboutMe() {
 
     I am an experienced engineer, developing developer, and  generally accomplished professional tinkerer.
     
-    My goal is to be what no engineer nor developer can be alone; the science and math to know the right solution, and the development skills to automate and deploy it.`;
+    My goal is to be what no engineer nor developer can be alone; the engineering to know the right solution and the development skills to automate and deploy it.`;
 
   return (
     <section className="flex place-content-center" id="aboutMe">
