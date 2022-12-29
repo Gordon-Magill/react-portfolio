@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import emailValidation from "../utils/emailValidation";
 
 export default function ContactMe() {
@@ -12,15 +12,23 @@ export default function ContactMe() {
     message: null,
   });
 
+  useEffect(() => {
+    // console.log('event:',event)
+    // If all fields are good, update state
+    if (errorState !== null) {
+      alert(errorState);
+    }
+  }, [errorState, formValues]);
+
   //   Update errorState based on the content of the form
   function formValidation(event) {
     console.log("formValidation called...");
-    console.log(event)
-    console.log('pre-switch error state:',errorState)
+    console.log(event);
+    console.log("pre-switch error state:", errorState);
     // Update error state based on all field values
     switch (event.target.name) {
       case "email":
-        console.log('triggered email validation')
+        console.log("triggered email validation");
         emailValidation(event.target.value)
           ? setErrorState(null)
           : setErrorState("Invalid email");
@@ -38,20 +46,14 @@ export default function ContactMe() {
       default:
         setErrorState("You managed to break this form in a really unusual way");
     }
-    console.log('post-switch error state:',errorState)
+    console.log("post-switch error state:", errorState);
 
-    // If all fields are good, update state
-    // Add useEffect here to handle the change in state
-    if (errorState === null) {
-      setFormValues({
-        // Preserve exising form values
-        ...formValues,
-        // Use this syntax to set a variable key value, overwriting old data
-        [event.target.name]: event.target.value,
-      });
-    } else {
-      alert(errorState);
-    }
+    setFormValues({
+      // Preserve exising form values
+      ...formValues,
+      // Use this syntax to set a variable key value, overwriting old data
+      [event.target.name]: event.target.value,
+    });
   }
 
   function submitForm(event) {
@@ -74,7 +76,10 @@ export default function ContactMe() {
         id="contactMe"
         className="bg-slate-400 flex flex-col items-center w-5/6 justify-center p-2 m-1 rounded-md"
       >
-        <form className="flex flex-col w-4/5 md:w-2/3 lg:w-1/3" onSubmit={submitForm}>
+        <form
+          className="flex flex-col w-4/5 md:w-2/3 lg:w-1/3"
+          onSubmit={submitForm}
+        >
           <input
             type="text"
             name="name"
