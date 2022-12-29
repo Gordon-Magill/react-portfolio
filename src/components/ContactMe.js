@@ -3,7 +3,9 @@ import emailValidation from "../utils/emailValidation";
 
 export default function ContactMe() {
   const inputFormatting =
-    "p-1 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm";
+    "p-1 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm w-[250px]";
+  const inputFormattingArea =
+    "p-1 m-1 ring ring-slate-600 hover:ring-slate-200 rounded-sm w-[250px] h-[250px]";
 
   const [errorState, setErrorState] = useState(null);
   const [formValues, setFormValues] = useState({
@@ -74,10 +76,10 @@ export default function ContactMe() {
     <div className="flex justify-center">
       <section
         id="contactMe"
-        className="bg-slate-400 flex flex-col items-center w-5/6 justify-center p-2 m-1 rounded-md"
+        className="bg-slate-800/90 flex flex-col items-center w-fit justify-center p-20 m-1 rounded-md"
       >
         <form
-          className="flex flex-col w-4/5 md:w-2/3 lg:w-1/3"
+          className="flex flex-col w-4/5 md:w-2/3 lg:w-1/3 items-center"
           onSubmit={submitForm}
         >
           <input
@@ -98,12 +100,12 @@ export default function ContactMe() {
             type="text"
             name="message"
             placeholder="Your message for Gordon"
-            className={inputFormatting}
+            className={inputFormattingArea}
             onBlur={formValidation}
           ></input>
           <button
             type="submit"
-            className="rounded-full border-solid border-green-600 bg-green-300 hover:bg-green-400 focus:bg-green-500 border-4 p-1 m-1"
+            className="rounded-full border-solid border-green-600 bg-green-300 hover:bg-green-400 focus:bg-green-500 w-[250px] border-4 p-1 m-1"
           >
             Submit
           </button>

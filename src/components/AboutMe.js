@@ -13,13 +13,13 @@ export default function AboutMe() {
 
   return (
     <section className="flex place-content-center" id="aboutMe">
-      <div className="rounded bg-blue-600 m-2 p-2 w-fit block md:flex md:flex-row md:items-center">
+      <div className="rounded bg-slate-800/50 m-2 p-2 w-fit block md:flex md:flex-row md:items-center">
         <img
           src={profilePhoto}
-          className="rounded-full ring-8 m-4 ring-blue-800 float-left max-w-[125px] md:max-w-[300px]"
+          className="rounded-full ring-8 m-4 ring-slate-800 float-left max-w-[125px] md:max-w-[300px]"
           alt="profile"
         ></img>
-        <p className="m-6 whitespace-pre-line max-w-[300px]">
+        <p className="m-6 whitespace-pre-line max-w-[300px] text-white font-bold font-sans">
           {bioContent}
         </p>
       </div>
