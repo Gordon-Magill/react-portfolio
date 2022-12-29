@@ -12,6 +12,7 @@ export default function Footer() {
           LinkedIn
         </a>
         <a className="p-1" href="https://twitter.com/GordonMagill">Twitter</a>
+        <p className="text-white p-1"> | Background &copy; James Magill</p>
       </div>
     </section>
   );
