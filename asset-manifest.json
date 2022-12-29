@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.42f7705f.css",
-    "main.js": "/react-portfolio/static/js/main.62f288a5.js",
+    "main.js": "/react-portfolio/static/js/main.e176fe9c.js",
     "static/media/dad_astro_background.jpg": "/react-portfolio/static/media/dad_astro_background.6350981ecc0880381525.jpg",
     "static/media/week1_deployed_page.png": "/react-portfolio/static/media/week1_deployed_page.fe56c422b0c0d5929bbc.png",
+    "static/media/newReactPortfolio.png": "/react-portfolio/static/media/newReactPortfolio.a124749598704fb5218c.png",
     "static/media/Ecommerce.png": "/react-portfolio/static/media/Ecommerce.2ba5986382faf07acaa4.png",
     "static/media/gittyup_square.png": "/react-portfolio/static/media/gittyup_square.e8cc7f1f174bdfa90279.png",
     "static/media/old_portfolio.png": "/react-portfolio/static/media/old_portfolio.9b0ae48d88baa32205c8.png",
     "static/media/employee_tracker.png": "/react-portfolio/static/media/employee_tracker.280684e08d31fd8cb031.png",
-    "static/media/newReactPortfolio.png": "/react-portfolio/static/media/newReactPortfolio.4b729095a44584bbb2b6.png",
     "static/media/profile_photo.jpeg": "/react-portfolio/static/media/profile_photo.b675508e6e21e92905ec.jpeg",
     "static/media/Gordon_Magill_Resume_2023.pdf": "/react-portfolio/static/media/Gordon_Magill_Resume_2023.fd98418a5767d63b9c0d.pdf",
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.f61ff9923f7c72853850.png",
@@ -17,10 +17,10 @@
     "static/media/blog_demo.jpg": "/react-portfolio/static/media/blog_demo.2628a589ff75e31b4889.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.42f7705f.css.map": "/react-portfolio/static/css/main.42f7705f.css.map",
-    "main.62f288a5.js.map": "/react-portfolio/static/js/main.62f288a5.js.map"
+    "main.e176fe9c.js.map": "/react-portfolio/static/js/main.e176fe9c.js.map"
   },
   "entrypoints": [
     "static/css/main.42f7705f.css",
-    "static/js/main.62f288a5.js"
+    "static/js/main.e176fe9c.js"
   ]
 }
