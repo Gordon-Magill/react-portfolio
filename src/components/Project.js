@@ -9,7 +9,7 @@ export default function Project({ project }) {
       id="projectContainer"
     >
       <div className="relative flex justify-center" id="titledPhoto">
-        <a className="projectTitle z-10" href={project.ghLink}>
+        <a className="projectTitle z-10" href={project.ghLink} target="_blank" rel="noreferrer">
           {project.title}
         </a>
         <img
