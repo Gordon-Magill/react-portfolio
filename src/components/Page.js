@@ -23,7 +23,7 @@ export default function Page({ currentPage }) {
   };
 
   return (
-  <div id="pageBody" className="bg-fixed bg-cover bg-center mb-10 pageBackground h-screen">
+  <div id="pageBody" className="bg-fixed bg-cover bg-top pageBackground min-h-fit h-screen">
     {pageSelector()}
   </div>);
 }

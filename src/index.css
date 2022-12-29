@@ -11,6 +11,7 @@
     }
 
     .pageBackground {
-        background-image: url(./assets/jwst_background.jpg)
+        background-image: url(./assets/jwst_background.jpg);
+        /* filter: blur(5px); */
     }
 }
