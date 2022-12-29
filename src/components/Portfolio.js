@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 // import logo from "../logo.svg";
 import codeRefactoring from "../assets/portfolio_images/week1_deployed_page.png";
-import resume_screenshot from '../assets/portfolio_images/resume_screenshot.png'
+import reactPortfolio from '../assets/portfolio_images/newReactPortfolio.png'
 import JATE from "../assets/portfolio_images/JATE.png";
 import socialMongoDB from '../assets/portfolio_images/social_media_API.jpg';
 import gittyup from "../assets/portfolio_images/gittyup_square.png";
@@ -16,7 +16,7 @@ export default function Portfolio() {
   const compsciProjects = [
     {
       title: "This portfolio",
-      imgLink: resume_screenshot,
+      imgLink: reactPortfolio,
       extLink: "https://gordon-magill.github.io/react-portfolio/",
       ghLink: "https://github.com/Gordon-Magill/react-portfolio",
       altText: "Representative shot of the current portfolio site",

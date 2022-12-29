@@ -1,7 +1,7 @@
 # React Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![React portfolio](./src/assets/portfolio_images/reactPortfolio.png)
+![React portfolio](./src/assets/portfolio_images/newReactPortfolio.png)
 
 Deployed page: [LINK](https://gordon-magill.github.io/react-portfolio/)
 
