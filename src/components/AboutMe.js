@@ -12,7 +12,7 @@ export default function AboutMe() {
     My goal is to be what no engineer nor developer can be alone; the science and math to know the right solution, and the development skills to automate and deploy it.`;
 
   return (
-    <section className="w-screen flex place-content-center" id="aboutMe">
+    <section className="flex place-content-center" id="aboutMe">
       <div className="rounded bg-blue-600 m-2 p-2 w-fit block md:flex md:flex-row md:items-center">
         <img
           src={profilePhoto}

@@ -1,16 +1,16 @@
 import React from "react";
 import Project from "./Project";
 // import logo from "../logo.svg";
-import codeRefactoring from "../assets/week1_deployed_page.png";
-import resume_screenshot from '../assets/resume_screenshot.png'
-import JATE from "../assets/JATE.png";
-import socialMongoDB from '../assets/social_media_API.jpg';
-import gittyup from "../assets/gittyup_square.png";
-import blog_demo from "../assets/blog_demo.jpg";
-import Ecommerce from '../assets/Ecommerce.png'
-import employee_tracker from '../assets/employee_tracker.png'
-import readMeGenerator from '../assets/readMeGenerator.png'
-import old_portfolio from '../assets/old_portfolio.png'
+import codeRefactoring from "../assets/portfolio_images/week1_deployed_page.png";
+import resume_screenshot from '../assets/portfolio_images/resume_screenshot.png'
+import JATE from "../assets/portfolio_images/JATE.png";
+import socialMongoDB from '../assets/portfolio_images/social_media_API.jpg';
+import gittyup from "../assets/portfolio_images/gittyup_square.png";
+import blog_demo from "../assets/portfolio_images/blog_demo.jpg";
+import Ecommerce from '../assets/portfolio_images/Ecommerce.png'
+import employee_tracker from '../assets/portfolio_images/employee_tracker.png'
+import readMeGenerator from '../assets/portfolio_images/readMeGenerator.png'
+import old_portfolio from '../assets/portfolio_images/old_portfolio.png'
 
 export default function Portfolio() {
   const compsciProjects = [

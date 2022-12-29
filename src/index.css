@@ -1,10 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* import jwst_background from '../assets/jwst_background.jpg' */
+
 
 @layer components {
     .projectTitle {
         @apply text-center absolute right-[50%] top-[50%] translate-x-1/2 -translate-y-1/2 text-2xl font-extrabold font-mono text-slate-200 w-11/12;
         text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+    }
+
+    .pageBackground {
+        background-image: url(./assets/jwst_background.jpg)
     }
 }
