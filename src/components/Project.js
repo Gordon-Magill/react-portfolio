@@ -41,7 +41,9 @@ export default function Project({ project }) {
         ) : (
           <a
             className=" rounded-full m-2 p-1  ring ring-red-800 bg-red-400 hover:bg-red-500 text-xs md:text-base font-bold"
-            href={project.extLink}
+            href={project.ghLink}
+            target="_blank"
+            rel="noreferrer"
           >
             No deployment
           </a>
