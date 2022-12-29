@@ -76,7 +76,7 @@ export default function ContactMe() {
     <div className="flex justify-center">
       <section
         id="contactMe"
-        className="bg-slate-800/90 flex flex-col items-center w-fit justify-center p-01 m-1 rounded-md"
+        className="bg-slate-800/50 flex flex-col items-center w-fit justify-center p-01 m-1 rounded-md"
       >
         <form
           className="flex flex-col w-4/5 md:w-2/3 lg:w-1/3 items-center p-5"
