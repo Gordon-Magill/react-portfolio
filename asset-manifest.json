@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.01eee071.css",
-    "main.js": "/react-portfolio/static/js/main.ec876b1a.js",
+    "main.css": "/react-portfolio/static/css/main.e683c5b7.css",
+    "main.js": "/react-portfolio/static/js/main.c2aaa4ed.js",
     "static/media/week1_deployed_page.png": "/react-portfolio/static/media/week1_deployed_page.fe56c422b0c0d5929bbc.png",
+    "static/media/jwst_background.jpg": "/react-portfolio/static/media/jwst_background.c5b8f780941c9a3631e6.jpg",
     "static/media/Ecommerce.png": "/react-portfolio/static/media/Ecommerce.2ba5986382faf07acaa4.png",
     "static/media/gittyup_square.png": "/react-portfolio/static/media/gittyup_square.e8cc7f1f174bdfa90279.png",
     "static/media/old_portfolio.png": "/react-portfolio/static/media/old_portfolio.9b0ae48d88baa32205c8.png",
@@ -15,11 +16,11 @@
     "static/media/readMeGenerator.png": "/react-portfolio/static/media/readMeGenerator.800e46ef7ad1ff1cb39a.png",
     "static/media/blog_demo.jpg": "/react-portfolio/static/media/blog_demo.2628a589ff75e31b4889.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.01eee071.css.map": "/react-portfolio/static/css/main.01eee071.css.map",
-    "main.ec876b1a.js.map": "/react-portfolio/static/js/main.ec876b1a.js.map"
+    "main.e683c5b7.css.map": "/react-portfolio/static/css/main.e683c5b7.css.map",
+    "main.c2aaa4ed.js.map": "/react-portfolio/static/js/main.c2aaa4ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.01eee071.css",
-    "static/js/main.ec876b1a.js"
+    "static/css/main.e683c5b7.css",
+    "static/js/main.c2aaa4ed.js"
   ]
 }
