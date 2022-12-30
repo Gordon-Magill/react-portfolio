@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.42f7705f.css",
-    "main.js": "/react-portfolio/static/js/main.e176fe9c.js",
+    "main.css": "/react-portfolio/static/css/main.610a1be0.css",
+    "main.js": "/react-portfolio/static/js/main.bd8c1565.js",
     "static/media/dad_astro_background.jpg": "/react-portfolio/static/media/dad_astro_background.6350981ecc0880381525.jpg",
     "static/media/week1_deployed_page.png": "/react-portfolio/static/media/week1_deployed_page.fe56c422b0c0d5929bbc.png",
     "static/media/newReactPortfolio.png": "/react-portfolio/static/media/newReactPortfolio.a124749598704fb5218c.png",
@@ -16,11 +16,11 @@
     "static/media/readMeGenerator.png": "/react-portfolio/static/media/readMeGenerator.800e46ef7ad1ff1cb39a.png",
     "static/media/blog_demo.jpg": "/react-portfolio/static/media/blog_demo.2628a589ff75e31b4889.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.42f7705f.css.map": "/react-portfolio/static/css/main.42f7705f.css.map",
-    "main.e176fe9c.js.map": "/react-portfolio/static/js/main.e176fe9c.js.map"
+    "main.610a1be0.css.map": "/react-portfolio/static/css/main.610a1be0.css.map",
+    "main.bd8c1565.js.map": "/react-portfolio/static/js/main.bd8c1565.js.map"
   },
   "entrypoints": [
-    "static/css/main.42f7705f.css",
-    "static/js/main.e176fe9c.js"
+    "static/css/main.610a1be0.css",
+    "static/js/main.bd8c1565.js"
   ]
 }
