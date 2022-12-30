@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <section id="footer" className="w-screen ">
-      <div className="fixed bottom-0 bg-slate-400 w-screen text-center text-white text-sm z-20 flex justify-center items-center flex-wrap">
+      <div className="fixed bottom-0 bg-slate-800/50 w-screen text-center text-white text-sm z-20 flex justify-center items-center flex-wrap">
         <p className="text-white px-1">
           &copy; Gordon Magill 2022
         </p>
